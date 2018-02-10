@@ -1,5 +1,7 @@
 # anonymous-chat-app
-simple chat application to do chating in local network. people can use it in their office.
+Simple chat application to understand Web-Socket using socket-io.js
+
+Application to do chating in your local network. (people can use it in their office at their own risk).
 
 To setup this application 
 
