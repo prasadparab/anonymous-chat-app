@@ -1,8 +1,6 @@
 # anonymous-chat-app
 Simple chat application to understand Web-Socket using socket-io.js
 
-Application to do chating in your local network. (people can use it in their office at their own risk).
-
 To setup this application 
 
 1. Install nodejs from https://nodejs.org/en/download/
@@ -20,4 +18,5 @@ To setup this application
 
     If you enter port apart from 3333 you need to do same change in chat.js file.
 
-    
+
+Application to do chating in your local network. (people can use it in their office at their own risk).
