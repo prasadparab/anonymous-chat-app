@@ -3,17 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>Web Socket Tutorial</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script> -->
+        <script src="/socket.io.js"></script>
         <link href="/style.css" rel="stylesheet">
-        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="/jquery-3.3.1.min.js"></script>
     </head>
     <body>
         <div id="chat-box">
-			<input type="text" placeholder="Username" id="handle" tabindex="0"/>
+            <input type="text" placeholder="Username" id="handle" />
             <div id="chat-window">
                 <div id="output"></div>
                 <div id="feedback"></div>
-            </div>            
+            </div>
             <input type="text" placeholder="Message" id="message" />
             <button id="send">Send</button>
         </div>
