@@ -14,6 +14,7 @@ btn.on("click",function(){
         message:message.val(),
         handle:handle.val()
     });
+    message.val("");
 });
 $(document).keypress(function(event){
     "use strict";
