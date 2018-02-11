@@ -1,4 +1,6 @@
-var socket=io.connect("http://localhost:3333");
+var remote_server = prompt("Please enter your server address with port", "http://");
+
+var socket=io.connect(remote_server);
 
 $("#handle").focus();
 
