@@ -20,8 +20,8 @@ To setup this application
 
     On successful you will get the message on command prompt something as "listening to request on..."
 
-3. On same PC, from browser goto http://localhost:3333
-   You can open multiple tabs to test/check application.
-   Your friend can access your application using your ip address. Enjoy chatting !!! 
+3. On same PC, from browser goto http://localhost:3333 Once open it will ask for server address.        Enter carefully, if you enter wrong you can refresh page and enter again.
+   Your friend can access your application using your ip address.
+   You can open multiple tabs to test/check application. Enjoy chatting !!!
 
 Application to do chating in your local network. (people can use it in their office at their own risk).
